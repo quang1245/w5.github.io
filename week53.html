@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách snh viên</title>
+    <style type="text/css">
+      .StudentInformation {
+        display: none;
+      }
+      .Student img {
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #aaa;
+      }
+      .StudentName {
+        font-weight: bold;
+      }
+      .StudentID {
+        font-style: italic;
+      }
+      .StudentID :before {
+        content: "-";
+      }
+      .Student {
+        text-align: center;
+        width: 150px;
+        margin: 0px 20px;
+        float: left;
+        cursor: pointer;
+      }
+      .Student:hover .StudentInformation {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="Student">
+        <img
+          src="https://photocross.net/wp-content/uploads/2020/03/anh-chan-dung.jpg"
+        />
+        <div class="StudentInformation">
+          <span class="StudentName">Lê Thị A</span>
+          <span class="StudentID">1234567</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="Student">
+        <img
+          src="https://mimosawedding.net/wp-content/uploads/2022/07/cach-chup-anh-chan-dung-4.jpg"
+        />
+        <div class="StudentInformation">
+          <span class="StudentName">Nguyễn Thị B</span>
+          <span class="StudentID">2345678</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="Student">
+        <img
+          src="https://mimosawedding.net/wp-content/uploads/2022/07/cach-chup-anh-chan-dung-13.jpg"
+        />
+        <div class="StudentInformation">
+          <span class="StudentName">Vũ Thị C</span>
+          <span class="StudentID">3456789</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
